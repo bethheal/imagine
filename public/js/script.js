@@ -76,3 +76,40 @@ if (today.getHours() >= 16) {
 }
 
 
+// functions
+// defining functions 
+
+function logIn(username,password) {
+    if(username == 'bazile' && password == '1234'){
+        return 'User is logged in';
+    } else if(username !='bazile'){
+      return 'invalid username';
+    }else if(password != '1234'){
+      return 'invalid password'
+    }else {
+      return 'Invalid username or password';
+    }
+    
+  }
+  
+  // invoking or calling funtions 
+  logIn('bazile', '1234');
+  //basic arithmetic
+  1 + 1
+  //subtract 
+  2 - 4
+  //multiply
+  3 * 4
+  //division
+  21 / 4
+  //module
+  45 % 5
+  //comparison Operators
+  2==2; //test for strictness using two equals
+  2=='2'//test for strictness using two equals
+  2==='2'//test for strictness using three equals 
+  
+   //built in math function
+  Math.round(37/23);
+  Math.floor(37/24);
+  
