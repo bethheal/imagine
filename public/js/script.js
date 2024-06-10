@@ -112,4 +112,38 @@ function logIn(username,password) {
    //built in math function
   Math.round(37/23);
   Math.floor(37/24);
-  
+  Math.ceil(37/24); //
+ Math.random();//random number generator
+ Math.max(12, 14, 89);
+ 
+ Math.ceil(Math.random() * 1000000);
+ 
+ 
+ //Order Of Operations
+ 2 * 1 + 3 - 4 / 3 % 2 ** 2;
+ 
+ //Handling User Inputs
+ 1200 + Number('250');//use this for input
+
+ //String Concatenation
+const firstname = 'Caroline';
+const lastname = 'Mortty';
+firstname.trim() + ' ' + lastname.trim();
+
+
+// Templates Literals
+`${firstname.trim()} ${lastname.trim()}`;
+
+
+//String Methods
+firstname.length;
+lastname.length;
+
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim()+ ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(0);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+//String Conversion
+String(2014);
