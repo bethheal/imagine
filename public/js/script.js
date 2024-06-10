@@ -147,3 +147,36 @@ lastname.charAt(0);
 
 //String Conversion
 String(2014);
+
+//Write a function that will add participant to out google clasroom 
+
+//participant lists where to add participants
+const  participants = [];
+function addParticipant(email){
+  //check if email was provided
+  if (!email){
+    return 'Email not provided';
+  }
+  //check if email is valid
+  if (!email.includes('@')){
+    return 'Invalid email provided';
+  }
+  
+  //add email to participants
+  participants.push(email);
+  //Notify them via email
+  return 'Particpant added'; 
+}
+    addParticipant('lizgmail.com');
+
+ 
+//if yes you are already logged in 
+//if no then add email
+
+
+//Array in Alphabets
+const alphabets =['A','B','C', 'D','E',];
+alphabets;
+alphabets.join('  ');
+alphabets.join('  ').split('  ');
+
